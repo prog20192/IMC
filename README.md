@@ -4,7 +4,11 @@ do mestrado de Neuroengenharia no Insituto Internacional de Neurociências de Na
 
 
 Este grupo está composto pelos alunos:
+
 Flávia Freire Carneiro
+
 Johseph Paballo
+
 Tâmara Nunes
+
 Tássia Nunes

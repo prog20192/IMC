@@ -1,9 +1,19 @@
-peso = 64
-altura = 1.63
+#CALCULO DE IMC 2.0
+nome = str(input('Digite seu nome: '))
+peso = float(input('Digite seu peso: '))
+altura = float(input('Digite sua altura: '))
+
 imc = peso/(altura**2)
-print ('Seu IMC é:', IMC)
-print ("Muito abaixo do peso?", imc < 17.0)
-print ("Abaixo do peso normal?", imc >= 17.0 and imc <= 18.5)
-print ("Peso dentro do Normal?", imc > 18.5 and imc <= 25.0)
-print ("Acima do peso normal?", imc > 25.0 and imc <= 30.0)
-print ("Muito acima do peso?", imc > 30.0)
+
+if imc < 17.0:
+    print('Seu IMC é {:.2f}! Você está muito abaixo do peso!'.format(imc))
+elif imc >=17.0 and imc <= 18.5:
+    print('Seu IMC é {:.2f}! Você está abaixo do peso normal!'.format(imc))
+elif   imc >= 18.5 and imc <= 25.0:
+    print('Seu IMC é {:.2f}! Você está dentro do normal!'.format(imc))
+elif imc >= 25.0 and imc <= 30.0:
+    print('Seu IMC é {:2.f}! Você está acima do peso!'.format(imc))
+else:
+    print('Seu IMC é {:.2f}! Você está muito acima do peso!'.format(imc))
+
+#Obrigado!
